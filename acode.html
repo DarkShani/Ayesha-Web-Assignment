@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Professional Personal Portfolio | Ayesha Aamir</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Enhanced hover zoom effects */
+        a, button {
+            transition: transform 0.2s ease-in-out;
+        }
+        a:hover, button:hover {
+            transform: scale(1.08);
+        }
+        .skill-tag {
+            transition: all 0.3s ease;
+        }
+        .skill-tag:hover {
+            transform: scale(1.15);
+        }
+        .experience-item {
+            transition: all 0.3s ease;
+        }
+        .experience-item:hover {
+            transform: scale(1.02);
+        }
+        .project-card {
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-black font-display text-[#111318] dark:text-white transition-colors duration-300">
+<header class="fixed top-0 left-0 right-0 z-50 bg-black/80 dark:bg-black/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<a class="flex items-center gap-3 group" href="#home">
+<div class="size-10 rounded-full bg-gradient-to-tr from-pink-500 via-purple-500 to-indigo-500 border-2 border-primary/20 flex items-center justify-center" role="img" aria-label="Graphic designer logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-7 h-7 transform transition-transform duration-200 group-hover:scale-110" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="gd" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0" stop-color="#ff6b6b"/>
+                            <stop offset="0.5" stop-color="#9b5cf6"/>
+                            <stop offset="1" stop-color="#3b82f6"/>
+                        </linearGradient>
+                    </defs>
+                    <title>Graphic designer logo</title>
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M3 21l5-1 9-9 1-5-5 1-10 14z" fill="url(#gd)"/>
+                        <path d="M14.6 5.4l4 4L12.2 16.8l-4-4L14.6 5.4z" fill="#fff" opacity="0.95"/>
+                        <path d="M16.8 3.2a1 1 0 0 1 1.4 0l1.6 1.6a1 1 0 0 1 0 1.4l-1.2 1.2-3-3 1.2-1.2z" fill="#fff"/>
+                    </g>
+                </svg>
+            </div>
+<div class="flex flex-col">
+<span class="text-base font-bold leading-tight tracking-tight">Ayesha Aamir</span>
+<span class="text-[#616f89] dark:text-gray-400 text-[10px] font-bold uppercase tracking-wider">Graphic Designer</span>
+</div>
+</a>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#education">Education</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#skills">Skills</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#experience">Experience</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#projects">Projects</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden sm:flex items-center gap-2 bg-primary text-white px-5 py-2 rounded-full text-xs font-bold hover:bg-primary/90 transition-all">
+<span class="material-symbols-outlined text-[16px]">download</span>
+                Resume
+            </button>
+<button class="md:hidden flex items-center justify-center p-2 rounded-lg bg-gray-100 dark:bg-gray-800">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex flex-col pt-20">
+<section class="min-h-[calc(100vh-80px)] flex items-center justify-center px-6 lg:px-20 py-20 bg-black dark:bg-black" id="home">
+<div class="max-w-6xl w-full">
+<div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+<div class="flex-1 space-y-8">
+<div class="space-y-4">
+<span class="text-primary font-bold tracking-widest text-sm uppercase">Available for work</span>
+<h1 class="text-5xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                            Turning Ideas into Visuals that Speak.
+                        </h1>
+<p class="text-xl text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl">
+                            I'm Ayesha Aamir, a Senior Graphic Designer specializing in building Designs.
+                        </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<a class="bg-primary text-white px-8 py-4 rounded-lg font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/20" href="#projects">View My Work</a>
+<a class="border border-gray-200 dark:border-gray-800 text-gray-900 dark:text-white px-8 py-4 rounded-lg font-bold hover:bg-gray-50 dark:hover:bg-gray-800 transition-all" href="#experience">About My Journey</a>
+</div>
+</div>
+<div class="relative hidden xl:block">
+<div class="w-80 h-[450px] bg-primary/10 rounded-2xl absolute -bottom-6 -right-6 -z-10"></div>
+<div class="w-80 h-[450px] bg-cover bg-center rounded-2xl shadow-2xl overflow-hidden border-8 border-white dark:border-gray-800" data-alt="abstract artistic blue geometric pattern" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCFqdpJJTskid09CM-685SnIOt9VP0wFp1GIX7SMEqxYDG28bJNPe77U9Uz4pXAlakKpeV0zXc-YuKWiIMFtDzluh1MS6hMmhOBev27Tkv9e0LFtO4bU4gLFR63DHfw4_wnhbFMq9B9VU7pM5RYgzYNbx0_SK3lNt8XgPo6mBRCWh5OU-POvzsYwLjQIDfxNs1jUfidmJm7KzuOlSvFqmt3X1YpLrTkiwF3i0UY18Nv-GyJENTfkPOScf85ge5Eet2XzweuyZgXoxs");'>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 lg:px-20 py-24 bg-black dark:bg-black" id="education">
+<div class="max-w-4xl mx-auto">
+<div class="flex items-center gap-4 mb-12">
+<div class="h-px bg-primary/30 flex-1"></div>
+<h2 class="text-3xl font-bold">Education &amp; Certs</h2>
+<div class="h-px bg-primary/30 flex-1"></div>
+</div>
+<div class="grid grid-cols-[40px_1fr] gap-x-6 gap-y-12">
+<div class="flex flex-col items-center">
+<div class="text-primary"><span class="material-symbols-outlined text-[32px]">school</span></div>
+<div class="w-[1.5px] bg-gray-200 dark:bg-gray-800 h-12"></div>
+</div>
+<div class="flex flex-col">
+<p class="text-xl font-bold leading-tight">BS in Computer Science</p>
+<p class="text-gray-500 font-medium">University of Management and Technology, 2022 — 2026</p>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Specialization in Computer and Graphic Design.</p>
+</div>
+<div class="flex flex-col items-center">
+<div class="text-primary"><span class="material-symbols-outlined text-[32px]">verified</span></div>
+<div class="w-[1.5px] bg-gray-200 dark:bg-gray-800 h-12"></div>
+</div>
+<div class="flex flex-col">
+<p class="text-xl font-bold leading-tight">AWS Certified Graphic Designer – Professional</p>
+<p class="text-gray-500 font-medium">Amazon Web Services, 2026</p>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Validation of advanced technical skills in designing distributed systems on AWS.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 lg:px-20 py-24 bg-black dark:bg-black" id="skills">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-3xl font-bold mb-12 text-center">Technical Arsenal</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="space-y-6">
+<h3 class="text-lg font-bold text-primary flex items-center gap-2">
+<span class="material-symbols-outlined">code</span> Core Technologies
+                    </h3>
+<div class="flex flex-wrap gap-2">
+<span class="skill-tag px-4 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-lg text-sm font-medium">Photoshop</span>
+<span class="skill-tag px-4 py-2 bg-primary/5 border border-primary/20 text-primary rounded-lg text-sm font-bold">Illustrator</span>
+<span class="skill-tag px-4 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-lg text-sm font-medium">Node.js</span>
+<span class="skill-tag px-4 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-lg text-sm font-medium">Python</span>
+<span class="skill-tag px-4 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-lg text-sm font-medium">Go</span>
+<span class="skill-tag px-4 py-2 bg-primary/5 border border-primary/20 text-primary rounded-lg text-sm font-bold">Tailwind CSS</span>
+</div>
+</div>
+<div class="space-y-6">
+<h3 class="text-lg font-bold text-primary flex items-center gap-2">
+<span class="material-symbols-outlined">Code</span> Tools
+                    </h3>
+<div class="flex flex-wrap gap-2">
+<span class="skill-tag px-4 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-lg text-sm font-medium">Photoshop</span>
+<span class="skill-tag px-4 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-lg text-sm font-medium">Figma</span>
+<span class="skill-tag px-4 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-lg text-sm font-medium">Canva</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 lg:px-20 py-24 bg-black dark:bg-black" id="experience">
+<div class="max-w-4xl mx-auto">
+<div class="flex items-center gap-4 mb-12">
+<div class="h-px bg-primary/30 flex-1"></div>
+<h2 class="text-3xl font-bold">Work Experience</h2>
+<div class="h-px bg-primary/30 flex-1"></div>
+</div>
+<div class="space-y-12">
+<div class="grid grid-cols-[40px_1fr] gap-6">
+<div class="flex flex-col items-center">
+<div class="size-10 rounded-full bg-primary/10 border border-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[20px]">apartment</span>
+</div>
+<div class="w-[2px] bg-gray-200 dark:bg-gray-800 flex-1 my-2"></div>
+</div>
+<div class="pb-8">
+<div class="flex flex-wrap items-baseline justify-between gap-2 mb-2">
+<h3 class="text-xl font-bold">Lead Graphic Engineer</h3>
+<span class="text-primary font-semibold text-sm bg-primary/10 px-3 py-1 rounded-full">2020 — Present</span>
+</div>
+<p class="text-gray-900 dark:text-gray-200 font-medium mb-4">TechNova Solutions • Remote</p>
+<ul class="text-gray-600 dark:text-gray-400 space-y-2 list-disc list-inside">
+
+</ul>
+</div>
+</div>
+<div class="grid grid-cols-[40px_1fr] gap-6">
+<div class="flex flex-col items-center">
+<div class="size-10 rounded-full bg-primary/10 border border-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[20px]">cloud</span>
+</div>
+<div class="w-[2px] bg-gray-200 dark:bg-gray-800 flex-1 my-2"></div>
+</div>
+<div class="pb-8">
+<div class="flex flex-wrap items-baseline justify-between gap-2 mb-2">
+<h3 class="text-xl font-bold">Full Stack Developer</h3>
+<span class="text-gray-500 font-semibold text-sm bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">2017 — 2020</span>
+</div>
+<p class="text-gray-900 dark:text-gray-200 font-medium mb-4">Systems Inc. • Lahore, LA</p>
+<ul class="text-gray-600 dark:text-gray-400 space-y-2 list-disc list-inside">
+<li>Developed scalable REST APIs using Node.js and Express, serving over 500k monthly active users.</li>
+<li>Implemented real-time data visualization dashboards using D3.js and WebSockets.</li>
+<li>Automated CI/CD pipelines using GitHub Actions, reducing deployment time by 30%.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 lg:px-20 py-24 bg-black dark:bg-black" id="projects">
+<div class="max-w-6xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+<div>
+<h2 class="text-3xl font-bold mb-2">Selected Projects</h2>
+<p class="text-gray-600 dark:text-gray-400">A collection of things I've built from scratch.</p>
+</div>
+<button class="text-primary font-bold hover:underline flex items-center gap-1 w-fit">
+                    Browse GitHub <span class="material-symbols-outlined">trending_flat</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Graphic design projects -->
+        <div class="project-card group bg-gray-900 dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 dark:border-gray-800">
+            <div class="aspect-video bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="colorful poster design with bold typography" style='background-image: url("https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=1400&q=80");'>
+            </div>
+            <div class="p-6">
+                <h3 class="text-lg font-bold mb-2 group-hover:text-primary transition-colors">PixelCraft Posters</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-4 line-clamp-2">A series of high-impact posters and event graphics created for local brands and festivals.</p>
+                <div class="flex items-center gap-3">
+                    <span class="skill-tag text-xs font-bold text-gray-400">ILLUSTRATOR</span>
+                    <span class="skill-tag text-xs font-bold text-gray-400">PHOTOSHOP</span>
+                    <span class="skill-tag text-xs font-bold text-gray-400">PRINT</span>
+                </div>
+            </div>
+        </div>
+        <div class="project-card group bg-gray-900 dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 dark:border-gray-800">
+            <div class="aspect-video bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="brand identity mockups and stationery" style='background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80");'>
+            </div>
+            <div class="p-6">
+                <h3 class="text-lg font-bold mb-2 group-hover:text-primary transition-colors">BrandWave Identity</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-4 line-clamp-2">Full visual identity systems including logos, stationery, and digital brand guidelines.</p>
+                <div class="flex items-center gap-3">
+                    <span class="skill-tag text-xs font-bold text-gray-400">FIGMA</span>
+                    <span class="skill-tag text-xs font-bold text-gray-400">ILLUSTRATOR</span>
+                    <span class="skill-tag text-xs font-bold text-gray-400">BRANDING</span>
+                </div>
+            </div>
+        </div>
+        <div class="project-card group bg-gray-900 dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 dark:border-gray-800">
+            <div class="aspect-video bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="printed brochure mockup with elegant layout" style='background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80");'>
+            </div>
+            <div class="p-6">
+                <h3 class="text-lg font-bold mb-2 group-hover:text-primary transition-colors">Printfolio Brochure</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-4 line-clamp-2">Editorial layouts and brochures focused on print quality and tactile finishes.</p>
+                <div class="flex items-center gap-3">
+                    <span class="skill-tag text-xs font-bold text-gray-400">INDESIGN</span>
+                    <span class="skill-tag text-xs font-bold text-gray-400">PHOTOSHOP</span>
+                    <span class="skill-tag text-xs font-bold text-gray-400">LAYOUT</span>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+</section>
+<footer class="px-6 lg:px-20 py-20 bg-black text-white">
+<div class="max-w-4xl mx-auto text-center">
+<p class="text-gray-400 mb-10 text-lg">Currently open to new projects or full-time opportunities.</p>
+<a class="inline-flex items-center gap-3 bg-primary text-white px-10 py-5 rounded-full font-bold text-xl hover:scale-105 transition-transform" href="mailto:hello@johndoe.com">
+                Say Hello <span class="material-symbols-outlined">mail</span>
+</a>
+<div class="mt-20 pt-10 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-gray-500 text-sm">© 2024 John Doe. Built with passion &amp; precision.</p>
+<div class="flex gap-8 text-sm font-bold text-gray-400">
+<a class="hover:text-white transition-colors" href="#">LinkedIn</a>
+<a class="hover:text-white transition-colors" href="#">GitHub</a>
+<a class="hover:text-white transition-colors" href="#">Twitter</a>
+</div>
+</div>
+</div>
+</footer>
+</main>
+
+</body></html>
